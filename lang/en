@@ -1,0 +1,37 @@
+index_title=MQTT Monitor
+index_errconfig=The mosquitto_sub config file $1 was not found on your system. Maybe mosquitto_sub is not installed, or your <a href='$2'>module configuration</a> is incorrect.
+index_errmqtt=The mosquitto_sub program $1 was not found on your system. Maybe mosquitto_sub is not installed, or your <a href='$2'>module configuration</a> is incorrect.
+index_return=module index
+index_version=$1
+index_modver=
+index_mqtttab=Topic Subs
+index_refresh=Refresh
+index_refreshinfo=Note: Click on any topic above to refresh.
+
+index_edit=Config Editor
+index_advanced=MQTT Commands
+
+index_start=Start Mosquitto
+index_startmsg=Click to start Mosquitto Sever.
+index_stop=Stop Mosquitto
+index_stopmsg=Click to stop Mosquitto Sever.
+index_restart=Restart Mosquitto
+index_restartmsg=Click to restart Mosquitto Sever.
+
+start_err=Failed to start Mosquitto
+stop_err=Failed to stop Mosquitto
+restart_err=Failed to restart Mosquitto
+exec_ok=Success:
+exec_output=Output for:
+exec_err=Executing mosquitto_sub command
+exec_userpass=An username and password is required.
+
+manual_ecannot=You are not allowed to edit the mosquitto_sub config file
+manual_ok=Edit
+manual_destroy=Destroy
+manual_efile=Selected file is not part of the mosquitto_sub configuration
+manual_file=Edit config file:
+manual_edata=Nothing entered!
+manual_err=Failed to save config file
+manual_mqttedit=Mosquitto Config Files
+manual_editnote=Note: Be careful, as no validation will be performed on your input!

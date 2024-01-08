@@ -1,0 +1,6 @@
+desc=MQTT Monitor
+name=MQTT Monitor
+category=hardware
+longdesc_en=MQTT Monitor Webmin Module
+os_support=freebsd openbsd netbsd *-linux
+version=0.1.0
